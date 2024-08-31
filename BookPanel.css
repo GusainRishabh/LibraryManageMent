@@ -1,0 +1,90 @@
+/* StudentPanel.css */
+
+.student-panel {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.available-books, .issued-books {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.book-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.issue-button, .remove-button, .update-button, .add-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.remove-button {
+    background-color: #dc3545;
+}
+
+.update-button {
+    background-color: #28a745;
+    margin-left: 5px;
+}
+
+.add-button {
+    background-color: #17a2b8;
+}
+
+.update-input, .new-book-input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.add-book, .update-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.update-section {
+    margin-top: 20px;
+}
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 12px;
+}
+
+.delete-button:hover {
+    background-color: #e60000;
+}
